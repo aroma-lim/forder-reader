@@ -1,0 +1,18 @@
+{
+  "tagTable.columns.createdBy": "Created by",
+  "tagTable.columns.createdOn": "Created on",
+  "tagTable.columns.name": "Name",
+  "tagTable.columns.tickets": "Tickets",
+  "tagTable.createRow.btn.cancel": "Cancel",
+  "tagTable.createRow.btn.save": "Save",
+  "tagDropdown.createNewTag.btn.cancel": "Cancel",
+  "tagDropdown.createNewTag.btn.save": "Save",
+  "tagDropdown.createNewTag.nameField.label": "Name",
+  "tagDropdown.createNewTag.nameField.placeholder": "Enter tag name",
+  "tagDropdown.createNewTag.title": "Add new tag",
+  "tagDropdown.empty": "No tags",
+  "tagDropdown.error.maxTagsPerTicket": "Can't add more than 20 tags.",
+  "tagDropdown.searchInputPlaceholder": "Search",
+  "dafadsf.adfa": "sdfdsfsdf",
+  "closedStatusesDummylongTextssssssss": "Depending the channel type your users are chatting in, they are given different labels as well as access to different actions and information. Users can register other users as friends, interact with them in a private chat, or block specific users from sending direct messages. Depending the channel type your users are chatting in, they are given different labels as well as access to different actions and information. Users can register other users as friends, interact with them in a private chat, or block specific users from sending direct messages."
+}

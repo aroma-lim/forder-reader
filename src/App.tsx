@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import "./App.css";
+import Header from "./components/Header";
+import LaneView from "./components/LaneView";
+import { Provider } from "react-redux";
+import { FC } from "react";
+import { store } from "./store/store";
 
-function App() {
+const Body = styled.div`
+  position: relative;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 59px);
+  width: 100vw;
+`;
+
+const App: FC<{ store: typeof store }> = ({ store }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Header />
+      <Body>
+        <LaneView />
+      </Body>
+    </Provider>
   );
-}
+};
 
 export default App;
